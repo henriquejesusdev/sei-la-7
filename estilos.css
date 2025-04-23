@@ -136,6 +136,10 @@ nav ul li a:hover {
   text-align: center;
 }
 
+img {
+  height: 241px;
+}
+
 .servico-item img {
   width: 100%;
   height: auto;
@@ -259,7 +263,7 @@ nav ul li a:hover {
 /* Media Queries para Responsividade */
 @media (max-width: 768px) {
   header .container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
   }
 
